@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="products.html">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+.navbar{
+        position:sticky;
+        top: 5;
+        background-color:rgb(193, 214, 214);
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0 2px 5px; 
+        color: rgb(8, 8, 8);
+        font-size: bold;
+    }
+ .Products-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Products-card {
+    background: #d89393;
+    border: 1px solid #0a0303;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    height: 510px;
+    margin: 10px;
+    text-align: center;
+    transition: box-shadow 0.5;
+}
+
+.Products-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Products-card img {
+    width: 280px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.Products-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Products-card p {
+    font-weight: bold;
+
+}
+.footer {
+    background-color: #f0a4a4;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+.Button{
+    padding: 8px 16px;
+    background-color: #d63384;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.Button:hover{
+    background-color: #ad155f;
+}
+.bodywashadd{
+     border: 1px solid #0a0303;
+}
+
+    
+    </style>
+</head>
+<body>
+     <header>
+        <div class="container head-container">
+            <div class="logo">Glowaura</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav>
+        <ul class="navbar">
+            <li><a href="Lipstic.html">Lipstick</a></li>
+            <li><a href="Faundation.html">Faundation</a></LI>
+            <li><a href="Eyeliner.html">Eyeliner</a></li>
+            <li><a href="perfume.html">Perfume</a></li>
+            <li><a href="blush.html">Blush</a></li>
+            <li><a href="highlighter.html">Highlighter</a></li>
+            <li><a href="sunscreen.html">SunScreen</a></li>
+            <li><a href="maskara.html">Maskara</a></li>
+           <li><a href="bodywash.html">Bodywash</a></li>
+           <li><a href="moisturiser.html">Mosturaiser</a></li>
+
+            </ul>
+            </nav>
+        </div>
+   <div class="bodywashadd">
+   <img src="bodyadd.webp" alt="add" width="1330px" height="300px">
+    </div>
+ <div class="Products-row">
+                <div class="Products-card">
+                    <img src="body1.jpeg" alt="body-1">
+                    <h3> Lux Bodywash</h3>
+                    <p>MRP-190rs</p>
+                    <button class="Button">Buy Now</button>
+                </div>
+                <div class="Products-card">
+                    <img src="body2.jpeg" alt="body-2">
+                    <h3>Dove Bodywash</h3>
+                    <p>MRP-230rs</p>
+                     <button class="Button">Buy Now</button>
+                </div>
+                <div class="Products-card"> 
+                    <img src="body3.jpeg" alt="body-3">
+                    <h3>Lily Bodywash</h3>
+                    <p>MRP-249rs</p>
+                     <button class="Button">Buy Now</button>
+                </div>
+                <div class="Products-card">
+                    <img src="body4.jpeg" alt="body-4">
+                    <h3>Chemist Bodywash</h3>
+                    <p>MRP-599rs</p>
+                     <button class="Button">Buy Now</button>
+                </div>
+    </div>
+</body>
+</html>
